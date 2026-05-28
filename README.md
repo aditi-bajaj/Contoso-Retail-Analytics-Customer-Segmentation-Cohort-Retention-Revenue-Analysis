@@ -17,7 +17,7 @@ This is an end-to-end data analytics project using **SQL and Power BI** to analy
 ## 🛠️ Tools & Technologies
 
 * SQL (PostgreSQL)
-* Power BI *(in progress)*
+* Power BI
 * Excel (for initial data handling)
 
 
@@ -51,17 +51,9 @@ Contoso_Retail_Dataset_Analysis/
 
 ---
 
-## 📊 Dashboard (Coming Soon)
+## 📊 Dashboard
 
-Power BI dashboards will be added to visualize key insights and business metrics.
-
----
-
-## 🚀 Future Improvements
-
-* Add interactive Power BI dashboards
-* Enhance data cleaning and transformation
-* Add business recommendations and insights
+Power BI dashboards to visualize key insights and business metrics.
 
 ---
 
