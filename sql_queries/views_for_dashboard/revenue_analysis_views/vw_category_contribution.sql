@@ -16,6 +16,7 @@ AS(
     SELECT
         product_category,
         category_revenue,
+        total_company_revenue,
         (100* category_revenue / total_company_revenue) AS category_contribution_pct
     FROM facts
 )
@@ -23,4 +24,4 @@ SELECT
     DENSE_RANK() OVER(ORDER BY category_contribution_pct DESC) AS rank,
     r.*
 FROM
-    revenue r
+    revenue r;
